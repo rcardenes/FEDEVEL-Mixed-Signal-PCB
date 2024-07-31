@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "51e502de-e743-4032-b52a-6d02ff13f169")
+	(paper "A4")
+	(title_block
+		(title "Mixed-Signal Demo PCB")
+		(rev "0.1")
+		(company "Ricardo Cárdenes")
+	)
+	(lib_symbols)
+)

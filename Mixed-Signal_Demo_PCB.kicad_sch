@@ -1,0 +1,222 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "dc1e796d-d6ca-4eeb-b725-72531775b7cc")
+	(paper "A4")
+	(title_block
+		(title "Mixed-Signal Demo PCB")
+		(date "2024-07-31")
+		(rev "0.1")
+		(company "Ricardo Cárdenes")
+	)
+	(lib_symbols)
+	(text "[2] MCU"
+		(exclude_from_sim no)
+		(at 170.942 41.402 0)
+		(effects
+			(font
+				(size 6 6)
+			)
+		)
+		(uuid "0370b6ca-77c1-4f15-a193-641930da01fe")
+	)
+	(text "[1] Power"
+		(exclude_from_sim no)
+		(at 98.044 42.672 0)
+		(effects
+			(font
+				(size 6 6)
+			)
+		)
+		(uuid "2b486cde-d811-4c87-8fa4-47d7a716170b")
+	)
+	(text "[3] ADC"
+		(exclude_from_sim no)
+		(at 93.98 91.694 0)
+		(effects
+			(font
+				(size 6 6)
+			)
+		)
+		(uuid "904a6add-6cd4-48b7-8e01-32e55ee65116")
+	)
+	(text "[4] DAC"
+		(exclude_from_sim no)
+		(at 169.926 91.694 0)
+		(effects
+			(font
+				(size 6 6)
+			)
+		)
+		(uuid "9fc89df4-9f6e-45e9-894c-380c7714ee2d")
+	)
+	(text "Mixed-Signal Demo PCB"
+		(exclude_from_sim no)
+		(at 69.85 19.05 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 6 6)
+			)
+		)
+		(uuid "f591b0b2-7ef8-4a91-8e61-18effd7813b1")
+	)
+	(sheet
+		(at 151.638 50.292)
+		(size 43.434 27.686)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "60576906-eb66-49e0-a3d8-17c57ae5d0d1")
+		(property "Sheetname" "MCU"
+			(at 151.638 49.5804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 151.638 78.5626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed-Signal_Demo_PCB"
+				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 75.438 51.054)
+		(size 45.212 28.194)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ba06b49-f2ae-4497-89b4-0ed72ab8952b")
+		(property "Sheetname" "Power"
+			(at 75.438 50.3424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 75.438 79.8326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed-Signal_Demo_PCB"
+				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 75.438 101.6)
+		(size 45.72 29.464)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7cf41227-be89-49df-86ef-19baaab3eebc")
+		(property "Sheetname" "ADC"
+			(at 75.438 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 75.438 131.6486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed-Signal_Demo_PCB"
+				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.638 101.346)
+		(size 43.688 28.956)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8")
+		(property "Sheetname" "DAC"
+			(at 151.638 100.6344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dac.kicad_sch"
+			(at 151.638 130.8866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed-Signal_Demo_PCB"
+				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
