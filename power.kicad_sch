@@ -2718,11 +2718,12 @@
 	)
 	(text "Bias Generator"
 		(exclude_from_sim no)
-		(at 188.214 50.546 0)
+		(at 181.102 50.038 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
+			(justify left)
 		)
 		(uuid "390b7d3e-54b1-4df3-8889-1e4d9dcea173")
 	)
@@ -2768,11 +2769,12 @@
 	)
 	(text "VBUS power comes from USB-C type connector (schematic page 2)"
 		(exclude_from_sim no)
-		(at 63.246 134.112 0)
+		(at 30.226 133.858 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "9bae79d2-af99-4856-a3c6-76c98dbf4869")
 	)
@@ -2798,11 +2800,12 @@
 	)
 	(text "Input Filtering & Analogue and Digital Supplies"
 		(exclude_from_sim no)
-		(at 53.594 50.292 0)
+		(at 30.226 50.038 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
+			(justify left)
 		)
 		(uuid "cc7f1603-421c-4fbf-825f-e68fddb40871")
 	)
