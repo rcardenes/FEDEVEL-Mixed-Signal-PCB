@@ -2069,6 +2069,19 @@
 		)
 		(uuid "90edf464-da83-4cca-b3f4-5ba917ccdcc4")
 	)
+	(text "Note: the course design calls for a DAC7563SDGSR.\nIt's been replaced it with a (seemingly identical) DAC7563TDGSR, because of supply issues"
+		(exclude_from_sim no)
+		(at 34.036 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9901d013-dde2-4574-938d-4875504fcd33")
+	)
 	(text "Rout = 50R"
 		(exclude_from_sim no)
 		(at 217.424 62.738 0)
@@ -2256,7 +2269,7 @@
 			)
 		)
 	)
-	(global_label "SPI2_MISO"
+	(global_label "SPI2_MOSI"
 		(shape input)
 		(at 46.99 73.66 180)
 		(fields_autoplaced yes)
@@ -2287,7 +2300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e2e10d2-786b-4312-b5f4-4e15cb7a365f")
-		(property "Reference" "R501"
+		(property "Reference" "R505"
 			(at 53.34 75.692 90)
 			(effects
 				(font
@@ -2339,7 +2352,7 @@
 		(instances
 			(project ""
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "R501")
+					(reference "R505")
 					(unit 1)
 				)
 			)
@@ -2355,7 +2368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23badbf3-a2be-40fb-8d61-16c38bb3906e")
-		(property "Reference" "C503"
+		(property "Reference" "C507"
 			(at 109.22 88.9062 0)
 			(effects
 				(font
@@ -2409,7 +2422,7 @@
 		(instances
 			(project ""
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "C503")
+					(reference "C507")
 					(unit 1)
 				)
 			)
@@ -2425,7 +2438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "251b05f2-479f-4222-ad1f-fb9ea6ba2d2a")
-		(property "Reference" "U501"
+		(property "Reference" "U502"
 			(at 84.7441 66.04 0)
 			(effects
 				(font
@@ -2512,7 +2525,7 @@
 		(instances
 			(project ""
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "U501")
+					(reference "U502")
 					(unit 1)
 				)
 			)
@@ -2594,7 +2607,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f2c08f6-970e-43ce-ad39-eade9cf1b34e")
-		(property "Reference" "U502"
+		(property "Reference" "U501"
 			(at 180.848 71.374 0)
 			(effects
 				(font
@@ -2665,7 +2678,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "U502")
+					(reference "U501")
 					(unit 1)
 				)
 			)
@@ -2757,7 +2770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69c3a76a-b8de-4c95-b509-0469f76e3ef9")
-		(property "Reference" "R503"
+		(property "Reference" "R501"
 			(at 127 68.58 90)
 			(effects
 				(font
@@ -2809,7 +2822,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "R503")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -2825,7 +2838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c03e5b7-5404-4608-b071-5931dad0159f")
-		(property "Reference" "#PWR0502"
+		(property "Reference" "#PWR0509"
 			(at 82.55 104.14 0)
 			(effects
 				(font
@@ -2876,7 +2889,7 @@
 		(instances
 			(project ""
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "#PWR0502")
+					(reference "#PWR0509")
 					(unit 1)
 				)
 			)
@@ -2892,7 +2905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "836accb4-7143-4d58-adbd-253ef639c80b")
-		(property "Reference" "R505"
+		(property "Reference" "R503"
 			(at 147.32 68.58 90)
 			(effects
 				(font
@@ -2944,7 +2957,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "R505")
+					(reference "R503")
 					(unit 1)
 				)
 			)
@@ -2961,7 +2974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "878f2f30-b7fe-487f-bf65-f935c8e47894")
-		(property "Reference" "#PWR0509"
+		(property "Reference" "#PWR0508"
 			(at 227.33 95.25 0)
 			(effects
 				(font
@@ -3012,7 +3025,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "#PWR0509")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -3028,7 +3041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8abcf14c-7f40-4039-ae7e-90963d1c77a6")
-		(property "Reference" "#PWR0508"
+		(property "Reference" "#PWR0507"
 			(at 153.67 93.98 0)
 			(effects
 				(font
@@ -3079,7 +3092,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "#PWR0508")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -3094,7 +3107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "903c0fb2-981d-4a42-9f56-d94e532ea9ce")
-		(property "Reference" "C504"
+		(property "Reference" "C501"
 			(at 153.924 54.102 90)
 			(effects
 				(font
@@ -3146,7 +3159,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "C504")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -3162,7 +3175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9364b4d2-fa3a-4d64-ab19-dd3c9c79b109")
-		(property "Reference" "C506"
+		(property "Reference" "C505"
 			(at 134.62 78.7462 0)
 			(effects
 				(font
@@ -3216,7 +3229,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "C506")
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -3232,7 +3245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97c3d1c5-6dbf-470c-ad10-31e140044763")
-		(property "Reference" "#PWR0507"
+		(property "Reference" "#PWR0506"
 			(at 173.99 92.71 0)
 			(effects
 				(font
@@ -3283,7 +3296,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "#PWR0507")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -3299,7 +3312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa6e426f-d427-4fb8-acac-3be5135b707c")
-		(property "Reference" "#PWR0505"
+		(property "Reference" "#PWR0504"
 			(at 162.56 73.66 0)
 			(effects
 				(font
@@ -3350,7 +3363,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "#PWR0505")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -3366,7 +3379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2c3b32e-c379-44a3-8927-63092e512f48")
-		(property "Reference" "#PWR0504"
+		(property "Reference" "#PWR0502"
 			(at 173.99 68.58 0)
 			(effects
 				(font
@@ -3416,7 +3429,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "#PWR0504")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -3432,7 +3445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cecb1965-4206-4b4b-8004-a648fae96230")
-		(property "Reference" "C502"
+		(property "Reference" "C503"
 			(at 73.66 59.6835 0)
 			(effects
 				(font
@@ -3486,7 +3499,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "C502")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -3502,7 +3515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf10918d-db68-4c74-bdcf-31c84989401d")
-		(property "Reference" "R502"
+		(property "Reference" "R506"
 			(at 121.92 88.8999 0)
 			(effects
 				(font
@@ -3556,7 +3569,7 @@
 		(instances
 			(project ""
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "R502")
+					(reference "R506")
 					(unit 1)
 				)
 			)
@@ -3572,7 +3585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d224d9c6-46c2-45fe-b676-fd33e754e8a9")
-		(property "Reference" "R506"
+		(property "Reference" "R504"
 			(at 203.2 71.12 90)
 			(effects
 				(font
@@ -3624,7 +3637,7 @@
 		(instances
 			(project ""
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "R506")
+					(reference "R504")
 					(unit 1)
 				)
 			)
@@ -3640,7 +3653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d54ea9ad-1009-4980-baa0-2a3ef940a9e6")
-		(property "Reference" "C501"
+		(property "Reference" "C502"
 			(at 63.5 59.6835 0)
 			(effects
 				(font
@@ -3694,7 +3707,7 @@
 		(instances
 			(project ""
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "C501")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -3709,7 +3722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db488d9c-ba2a-4679-8cd3-fae3778b50f5")
-		(property "Reference" "C505"
+		(property "Reference" "C504"
 			(at 167.64 63.246 90)
 			(effects
 				(font
@@ -3761,7 +3774,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "C505")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -3856,7 +3869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df16f8c4-1c3e-40f1-bf5f-7216021229c7")
-		(property "Reference" "R504"
+		(property "Reference" "R502"
 			(at 137.16 68.58 90)
 			(effects
 				(font
@@ -3908,7 +3921,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "R504")
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -3924,7 +3937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2f1d100-3fe4-4002-aaa2-62bd5a7e5b60")
-		(property "Reference" "#PWR0506"
+		(property "Reference" "#PWR0505"
 			(at 132.08 92.71 0)
 			(effects
 				(font
@@ -3975,7 +3988,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "#PWR0506")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -3991,7 +4004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea0ac20b-bab4-4d98-9aaa-357979da5c53")
-		(property "Reference" "C507"
+		(property "Reference" "C506"
 			(at 156.21 78.7462 0)
 			(effects
 				(font
@@ -4045,7 +4058,7 @@
 		(instances
 			(project "Mixed-Signal_Demo_PCB"
 				(path "/dc1e796d-d6ca-4eeb-b725-72531775b7cc/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8"
-					(reference "C507")
+					(reference "C506")
 					(unit 1)
 				)
 			)
