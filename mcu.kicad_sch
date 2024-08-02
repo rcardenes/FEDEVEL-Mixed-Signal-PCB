@@ -700,7 +700,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
+		(symbol "Connector_Generic:Conn_02x05_Counter_Clockwise"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -714,7 +714,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x05_Odd_Even"
+			(property "Value" "Conn_02x05_Counter_Clockwise"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -740,7 +740,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -767,7 +767,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x05_Odd_Even_1_1"
+			(symbol "Conn_02x05_Counter_Clockwise_1_1"
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -908,7 +908,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -926,7 +926,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -944,7 +944,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -962,7 +962,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -980,7 +980,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -998,7 +998,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1016,7 +1016,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1034,7 +1034,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -1052,7 +1052,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -6960,6 +6960,17 @@
 		)
 		(uuid "0f5ef2db-707a-4e1d-bf7d-5a94f0a116a8")
 	)
+	(label "SWO_CONN"
+		(at 120.65 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "120c08b8-a8ee-4314-9a8e-d9c3aecd1373")
+	)
 	(label "USB_D+"
 		(at 243.84 123.19 180)
 		(fields_autoplaced yes)
@@ -6992,6 +7003,17 @@
 			(justify left bottom)
 		)
 		(uuid "28f105b9-9da1-4f85-97fe-5331a9100fe7")
+	)
+	(label "SWCLK_CONN"
+		(at 120.65 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e66186b-cb9a-444a-8168-c08f6adbcad5")
 	)
 	(label "USB_CMC_D-"
 		(at 186.69 118.11 0)
@@ -7058,6 +7080,17 @@
 			(justify right bottom)
 		)
 		(uuid "4c2942c3-b87a-49ba-8f22-f2316443dea7")
+	)
+	(label "SWDIO_CONN"
+		(at 120.65 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4daa20ea-ad15-49e4-a537-62cb25bbd026")
 	)
 	(label "USB_D-"
 		(at 132.08 86.36 180)
@@ -7201,6 +7234,17 @@
 			(justify left bottom)
 		)
 		(uuid "aafcfc68-47de-4a56-8fa9-ac01c07a8368")
+	)
+	(label "NRST_CONN"
+		(at 120.65 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aec230f0-b96c-44b8-bb2c-ca661055392a")
 	)
 	(label "TIM4_CH1"
 		(at 26.67 158.75 0)
@@ -10659,7 +10703,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 236.22 67.31 0)
 			(effects
 				(font
@@ -11827,7 +11871,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
+		(lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise")
 		(at 106.68 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11869,7 +11913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 106.68 166.37 0)
 			(effects
 				(font
