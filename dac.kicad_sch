@@ -2126,6 +2126,17 @@
 		)
 		(uuid "d53b5dd1-32bc-4f31-bef4-0145b3b7e528")
 	)
+	(label "DAC_OUT_B"
+		(at 104.14 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00fd7c82-79f1-4f93-896b-81bd0c3fefde")
+	)
 	(label "OUT_AA_BUF_OUT"
 		(at 177.8 91.44 0)
 		(fields_autoplaced yes)
@@ -2136,6 +2147,17 @@
 			(justify left bottom)
 		)
 		(uuid "1c1c2233-224d-4105-919e-927acf054619")
+	)
+	(label "DAC_OUT_A"
+		(at 104.14 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ae0b98a-eb9c-4eaa-b26f-d02f83b8608c")
 	)
 	(label "IN"
 		(at 219.71 76.2 180)
@@ -2786,7 +2808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127 73.66 0)
 			(effects
 				(font

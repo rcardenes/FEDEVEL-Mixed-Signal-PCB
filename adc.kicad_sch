@@ -3267,6 +3267,17 @@
 		)
 		(uuid "2949b218-5740-480f-b1c3-651f835ae0a2")
 	)
+	(label "ADC_REF_IN"
+		(at 49.53 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "405bddc2-6527-46c9-bc67-31f9b2db5b8d")
+	)
 	(label "IN_AA_BUF_IN"
 		(at 175.26 60.96 0)
 		(fields_autoplaced yes)
@@ -3332,6 +3343,17 @@
 			(justify left bottom)
 		)
 		(uuid "c053954a-6662-4b89-80b7-4e32b4080803")
+	)
+	(label "IN_RF"
+		(at 72.39 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0586c21-cef2-439b-83a8-4b9e8ce766a6")
 	)
 	(label "IN_BUF"
 		(at 104.14 58.42 0)
@@ -4895,7 +4917,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.52 53.34 0)
 			(effects
 				(font
@@ -6598,7 +6620,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 71.12 64.77 0)
 			(effects
 				(font
@@ -6734,7 +6756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 147.32 60.96 0)
 			(effects
 				(font
