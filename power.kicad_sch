@@ -2842,7 +2842,7 @@
 		)
 		(uuid "6b4567ee-ecbc-4105-876e-f630773df764")
 	)
-	(label "BUCK_5W"
+	(label "BUCK_SW"
 		(at 93.98 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3414,7 +3414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 125.73 118.11 0)
 			(effects
 				(font
@@ -4730,7 +4730,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 125.73 106.68 0)
 			(effects
 				(font

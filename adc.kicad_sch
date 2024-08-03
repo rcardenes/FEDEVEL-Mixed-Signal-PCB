@@ -3367,7 +3367,7 @@
 		(uuid "fc4951bf-9957-420d-9140-0a06431b908e")
 	)
 	(global_label "SPI1_MISO"
-		(shape input)
+		(shape output)
 		(at 144.78 135.89 0)
 		(fields_autoplaced yes)
 		(effects

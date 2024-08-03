@@ -700,7 +700,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x05_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -714,7 +714,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x05_Counter_Clockwise"
+			(property "Value" "Conn_02x05_Odd_Even"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -740,7 +740,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -767,7 +767,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x05_Counter_Clockwise_1_1"
+			(symbol "Conn_02x05_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -908,7 +908,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -926,7 +926,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -944,7 +944,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -962,7 +962,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -980,7 +980,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -998,7 +998,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1016,7 +1016,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1034,7 +1034,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -1052,7 +1052,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -5025,6 +5025,10 @@
 		(uuid "403a5b45-d81c-4087-8ebd-b43dc2baf8c1")
 	)
 	(no_connect
+		(at 83.82 114.3)
+		(uuid "478071ed-0829-4725-b440-ddf8cd11e8b5")
+	)
+	(no_connect
 		(at 116.84 78.74)
 		(uuid "48e148aa-0e49-4779-8ad0-01127b6ba4be")
 	)
@@ -5071,10 +5075,6 @@
 	(no_connect
 		(at 83.82 109.22)
 		(uuid "af3d1f9b-57b5-46ef-952b-fa24f6b7dc78")
-	)
-	(no_connect
-		(at 83.82 91.44)
-		(uuid "d3f3f2d0-0c5e-4893-b43f-19486499532c")
 	)
 	(no_connect
 		(at 116.84 76.2)
@@ -6016,7 +6016,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 93.98) (xy 83.82 93.98)
+			(xy 62.23 93.98) (xy 83.82 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6466,6 +6466,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 91.44) (xy 83.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb3ecd2-c191-48a2-9d53-77b8ce925ba2")
+	)
+	(wire
+		(pts
 			(xy 41.91 71.12) (xy 41.91 86.36)
 		)
 		(stroke
@@ -6493,16 +6503,6 @@
 			(type default)
 		)
 		(uuid "d2e92474-2dd5-41e0-9b52-8c8265bd268a")
-	)
-	(wire
-		(pts
-			(xy 81.28 114.3) (xy 83.82 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d447d6d9-a129-4daa-a4a7-e22b6e55ffc2")
 	)
 	(wire
 		(pts
@@ -7092,6 +7092,17 @@
 		)
 		(uuid "4daa20ea-ad15-49e4-a537-62cb25bbd026")
 	)
+	(label "TIM4_CH1"
+		(at 26.67 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5636faa8-d020-4f89-bc61-5920f10adb27")
+	)
 	(label "USB_D-"
 		(at 132.08 86.36 180)
 		(fields_autoplaced yes)
@@ -7148,7 +7159,7 @@
 		(uuid "834d2e87-7d9c-45fa-bf97-563aec13762c")
 	)
 	(label "SWO"
-		(at 71.12 93.98 0)
+		(at 62.23 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7224,6 +7235,17 @@
 		)
 		(uuid "973d6195-6aac-4361-8802-8e4f08dade72")
 	)
+	(label "TIM4_CH3"
+		(at 26.67 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8364ade-e0ff-4e1c-a0e0-27b5a9e5a700")
+	)
 	(label "USB_CONN_D-"
 		(at 209.55 64.77 0)
 		(fields_autoplaced yes)
@@ -7245,28 +7267,6 @@
 			(justify left bottom)
 		)
 		(uuid "aec230f0-b96c-44b8-bb2c-ca661055392a")
-	)
-	(label "TIM4_CH1"
-		(at 26.67 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba23287c-651d-4ffe-a8f4-a195215221e4")
-	)
-	(label "TIM4_CH3"
-		(at 26.67 168.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1c41eed-7ac2-4d3d-b163-0fe8bf7f5d82")
 	)
 	(label "USB_D+"
 		(at 132.08 88.9 180)
@@ -7335,7 +7335,7 @@
 		(uuid "e648b7c5-6257-4b79-ac11-565fd524be25")
 	)
 	(label "TIM4_CH2"
-		(at 26.67 163.83 0)
+		(at 26.67 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7343,11 +7343,11 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f8736029-43a9-4be1-8352-ffac5504a4ff")
+		(uuid "eea3d55f-b95e-45e3-8753-4efc68157208")
 	)
 	(global_label "DAC_NLDAC"
-		(shape input)
-		(at 81.28 114.3 180)
+		(shape output)
+		(at 81.28 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7357,7 +7357,7 @@
 		)
 		(uuid "3362dd26-0e4c-498e-9b95-b85301fb8b72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.7114 114.3 0)
+			(at 67.7114 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,8 +7368,8 @@
 		)
 	)
 	(global_label "DAC_NCLR"
-		(shape input)
-		(at 81.28 111.76 180)
+		(shape output)
+		(at 80.01 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7377,9 +7377,9 @@
 			)
 			(justify right)
 		)
-		(uuid "33f40faa-0b9b-43f5-8aaa-1a4e16aabb99")
+		(uuid "4cf96b60-b580-4d13-8b6a-9e4e8782b788")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.8 111.76 0)
+			(at 67.53 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +7434,7 @@
 		)
 	)
 	(global_label "SPI2_MOSI"
-		(shape input)
+		(shape output)
 		(at 58.42 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11871,7 +11871,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 106.68 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11913,7 +11913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 106.68 166.37 0)
 			(effects
 				(font
