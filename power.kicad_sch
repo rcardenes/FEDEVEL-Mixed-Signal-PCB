@@ -2809,6 +2809,17 @@
 		)
 		(uuid "cc7f1603-421c-4fbf-825f-e68fddb40871")
 	)
+	(label "VREF"
+		(at 204.47 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "181d0f49-132a-42a3-a9e5-17d9d36c2200")
+	)
 	(label "BUCK_FB"
 		(at 100.33 109.22 0)
 		(fields_autoplaced yes)
@@ -3001,7 +3012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 46.99 63.5 0)
 			(effects
 				(font
@@ -4370,7 +4381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XxL4020"
 			(at 105.41 100.33 0)
 			(effects
 				(font
@@ -4390,6 +4401,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 105.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3151182"
+			(at 105.41 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,7 +4590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 72.39 63.5 0)
 			(effects
 				(font
