@@ -114,7 +114,7 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -135,17 +135,17 @@
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference yes)
-			(plotvalue yes)
+			(plotreference no)
+			(plotvalue no)
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber/")
 		)
 	)
 	(net 0 "")
@@ -3795,6 +3795,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b36566d0-5e31-4b10-84ac-29e20df57779")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7603,6 +7616,19 @@
 				)
 			)
 		)
+		(property "MPN" "C25752"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d8d7c1a-620b-4531-9664-2c98ade8148e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/cf59f8c7-acda-4edc-bf31-7ffb2d25aeb8/836accb4-7143-4d58-adbd-253ef639c80b")
 		(sheetname "DAC")
@@ -7812,6 +7838,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C25752"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e984f79-c90f-4e0b-8145-cb15b74218ae")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15643,6 +15682,19 @@
 				)
 			)
 		)
+		(property "MPN" "C23212"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2615aeea-b39a-46bc-8ab4-8e3f60aead14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7cf41227-be89-49df-86ef-19baaab3eebc/e1b6d542-9dd5-4deb-bb81-b222cf3b17c6")
 		(sheetname "ADC")
@@ -20226,6 +20278,19 @@
 				)
 			)
 		)
+		(property "MPN" "C375571"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40f872df-c5d7-470e-a402-f724394674f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/60576906-eb66-49e0-a3d8-17c57ae5d0d1/1a763f22-37b7-4a53-85d8-346ace7600ad")
 		(sheetname "MCU")
@@ -22378,6 +22443,19 @@
 				)
 			)
 		)
+		(property "MPN" "C8304"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aebc44da-03e8-4c0e-97ed-f103085138e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LQFP*7x7mm*P0.5mm*")
 		(path "/60576906-eb66-49e0-a3d8-17c57ae5d0d1/ad2f73f5-b470-4934-bf78-3cb57b80b0ff")
 		(sheetname "MCU")
@@ -23561,6 +23639,19 @@
 				)
 			)
 		)
+		(property "MPN" "C362342"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6e19266-c7fc-4da1-b61d-d137ed61b6c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Crystal*")
 		(path "/60576906-eb66-49e0-a3d8-17c57ae5d0d1/1d6d4057-aad7-481e-803b-daf02b41cb7c")
 		(sheetname "MCU")
@@ -23798,6 +23889,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C404632"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67bde075-b567-448f-8657-b9148b7d7b39")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -25786,6 +25890,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C404632"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90e42f1f-165a-4d63-a65d-6f265970300a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28301,6 +28418,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C23212"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba25931c-1967-412f-bb07-48f1364249b6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
